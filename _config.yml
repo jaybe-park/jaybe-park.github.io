@@ -5,6 +5,7 @@ description:         '박종범<br>Jaybe Park'
 url:                 ''
 baseurl:             ''
 paginate:            5
+paginate_path:       '/contents/page:num'
 permalink:           pretty
 
 # About/contact
@@ -16,6 +17,20 @@ author:
   name:              Jaybe Park
   url:               https://github.com/jaybe-park
   email:             jaybe.jongbeom.park@gmail.com
+
+nav:
+  Home:           
+    - '/'
+  Contents:           
+    - '/contents/'
+    - { Categories: '/contents/categories/' }
+    - { Tags: '/contents/tags/' }
+  About:          
+    - '/about/'
+
+# Where are tags and categories displayed
+tag_page: '/contents/tags/'
+category_page: '/contents/categories/'
 
 # Gems
 plugins:

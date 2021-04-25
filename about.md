@@ -25,3 +25,4 @@ title: About
 * [Github Pages](https://pages.github.com/)
 * [Jekyll](https://jekyllrb.com/)
 * [Lanyon](https://lanyon.getpoole.com/)
+* [ratsgo's Blog](https://ratsgo.github.io/)

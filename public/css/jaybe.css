@@ -36,3 +36,13 @@ html {
   background: #ac4142;
   color: white !important;
 }
+
+.sidebar-nav-item-sub {
+  font-size: 85%;
+  line-height: 85%;
+}
+
+.sidebar-nav-item-sub::before {
+  content: "";
+  padding-left: 1em;
+}
