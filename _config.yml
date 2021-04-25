@@ -5,6 +5,7 @@ description:         '박종범<br>Jaybe Park'
 url:                 ''
 baseurl:             ''
 paginate:            5
+paginate_path:       '/contents/page:num'
 permalink:           pretty
 
 # About/contact
@@ -21,11 +22,15 @@ nav:
   Home:           
     - '/'
   Contents:           
-    - '/blog/'
-    - { Categories: '/blog/categories/' }
-    - { Tags: '/blog/tags/' }
+    - '/contents/'
+    - { Categories: '/contents/categories/' }
+    - { Tags: '/contents/tags/' }
   About:          
     - '/about/'
+
+# Where are tags and categories displayed
+tag_page: '/contents/tags/'
+category_page: '/contents/categories/'
 
 # Gems
 plugins:
