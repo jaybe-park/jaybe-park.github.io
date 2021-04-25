@@ -17,6 +17,16 @@ author:
   url:               https://github.com/jaybe-park
   email:             jaybe.jongbeom.park@gmail.com
 
+nav:
+  Home:           
+    - '/'
+  Contents:           
+    - '/blog/'
+    - { Categories: '/blog/categories/' }
+    - { Tags: '/blog/tags/' }
+  About:          
+    - '/about/'
+
 # Gems
 plugins:
   - jekyll-paginate
