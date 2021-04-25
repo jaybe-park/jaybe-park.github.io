@@ -15,20 +15,24 @@ html {
   display: inline;
 }
 
-/* TODO: margin bottom */
 .post-tag {
   display: inline-block;
   background: rgba(172, 65, 66, 0.15);
-  padding: 0 0.5rem;
-  margin-right: 0.5rem;
+  padding: 0.1rem 0.5rem;
   border-radius: 4px;
   color: #ac4142;
   font-size: 90%;
+  margin: 0.2em;
 }
 
-/* TODO: seperate tag class? */
 .post-tag::before {
   content: "\f02b";
   font-family: FontAwesome;
   padding-right: 0.5em;
+}
+
+.post-tag:hover {
+  text-decoration: none;
+  background: #ac4142;
+  color: white !important;
 }
