@@ -23,11 +23,17 @@ html {
   border-radius: 4px;
   color: #ac4142;
   font-size: 90%;
-  margin: .2em .3em;
+  margin: 0.2em 0.3em;
 }
 
 .post-tag::before {
   content: "\f02b";
   font-family: FontAwesome;
   padding-right: 0.5em;
+}
+
+.post-tag:hover {
+  text-decoration: none;
+  background: #ac4142;
+  color: white !important;
 }
