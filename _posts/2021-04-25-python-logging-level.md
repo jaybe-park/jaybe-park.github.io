@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Python - Logging Level
-category: Python
-tag: [python, python advanced, logging]
+category: python-advanced
+tag: [Python, Python Advanced, logging]
 ---
 
 # Logging Level
