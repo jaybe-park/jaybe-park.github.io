@@ -24,7 +24,7 @@ nav:
   Contents:           
     - '/contents/'
     - { Categories: '/contents/categories/' }
-    - { Tags: '/contents/tags/' }
+    # - { Tags: '/contents/tags/' }
   About:          
     - '/about/'
 
