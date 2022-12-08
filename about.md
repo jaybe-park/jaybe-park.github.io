@@ -7,14 +7,14 @@ title: About
 안녕하세요<br>
 박종범, 제이비입니다.
 
-이 공간은 개인적인 생각, 공부한 결과물 등을 정리해놓은 블로그입니다.  
-저는 게으른 개발자라 결과물을 누가 보고있지 않으면 정리를 잘 안해놓더라구요.  
+이 공간은 개인적인 생각, 공부한 결과물 등을 정리해놓은 블로그입니다.<br>
+저는 게으른 개발자라 결과물을 누가 보고있지 않으면 정리를 잘 안해놓더라구요.<br>
 조언해주실 내용 있으면 언제든지 연락주세요.
 
 * [Email](mailto:jaybe.jongbeom.park@gmail.com) (jaybe.jongbeom.park@gmail.com)
 * [Github](https://github.com/jaybe-park)
-* [Stack Overflow](https://stackoverflow.com/users/15273610/jaybe-park)
 * [Linked In](https://www.linkedin.com/in/jaybe-park-873760209/)
+* [Stack Overflow](https://stackoverflow.com/users/15273610/jaybe-park)
 
 ## Blog
 이 블로그를 만들 때 아래 사이트 혹은 프로젝트에서 도움을 받았습니다.  
