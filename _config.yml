@@ -1,6 +1,6 @@
 # Setup
 title:               Jaybe Park
-tagline:             'Developer, Data Scientist, Cat Servant'
+tagline:             'Data Engineer, Data Scientist, Developer'
 description:         '박종범<br>Jaybe Park'
 url:                 ''
 baseurl:             ''
@@ -24,7 +24,7 @@ nav:
   Contents:           
     - '/contents/'
     - { Categories: '/contents/categories/' }
-    - { Tags: '/contents/tags/' }
+    # - { Tags: '/contents/tags/' }
   About:          
     - '/about/'
 
@@ -38,4 +38,4 @@ plugins:
 
 # Custom vars
 version:             0.0.1
-google_analytics_id: ''
+google_analytics_id: 'G-Y21CZK44EN'
