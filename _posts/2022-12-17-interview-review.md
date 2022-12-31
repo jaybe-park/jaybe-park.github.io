@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 면접을 보면서 느끼는 점
-category: essay
+category: Essay
 tag: essay
 ---
 
