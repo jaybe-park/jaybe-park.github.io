@@ -11,6 +11,7 @@ tag: [Docs, Apache Parquet]
   * 시작일: 2023-01-15
   * 완료일: TDB
 * 제 짧은 지식과 영어 실력으로 의역 및 오역이 있을 수 있습니다.
+* 위 두 링크 중에 [parquet-foramt의 README.md](https://github.com/apache/parquet-format#readme)가 내용이 더 최신인 것으로 예상됩니다. 원분을 참고하실 분들은 여기를 참고하세요
 * 아직 번역이 완성되지 않았습니다. 업로드 일정은 미정입니다...
 
 ---
@@ -58,7 +59,7 @@ tag: [Docs, Apache Parquet]
 
 ---
 
-# File Format
+# 파일 포멧
 
 > 파케이 파일 포멧에 대한 문서
 
@@ -90,7 +91,16 @@ File Metadata
 
 파케이를 읽는 사람 또는 프로그램은 그들이 찾는 데이터가 어디있는지 알기 위해서 파일 메타데이터를 처음 읽는 것을 가정하고 만들어졌다. 컬럼 청크들은 파일 메타데이터를 읽은 후에 읽어야 한다.
 
-## Configurations
+![parquet-file_format](https://camo.githubusercontent.com/e034316c88a806342315126d6b22f90cd88cdf810cb44c7725f63725e9037f96/68747470733a2f2f7261772e6769746875622e636f6d2f6170616368652f706172717565742d666f726d61742f6d61737465722f646f632f696d616765732f46696c654c61796f75742e676966)  
+
+## 메타데이터
+
+
+
+
+
+
+## 설정
 
 * 행 그룹 사이즈
   * 행 그룹이 클수록 큰 선형적 IO가 가능하다. 하지만, 행 그룹이 클수록 기록하는데 더 큰 버퍼링이 필요하다.
@@ -103,7 +113,6 @@ File Metadata
 
 
 ## Extensibility
-## Metadata
 ## Types
 ### Logical Types
 ## Nested Encoding
