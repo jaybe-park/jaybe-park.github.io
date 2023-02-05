@@ -3,7 +3,7 @@ title:               Jaybe Park
 tagline:             'Data Engineer, Data Scientist, Developer'
 description:         '박종범<br>Jaybe Park'
 url:                 'https://jaybe-park.github.io'
-baseurl:             'https://jaybe-park.github.io'
+baseurl:             ''
 paginate:            5
 paginate_path:       '/contents/page:num'
 permalink:           pretty
