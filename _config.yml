@@ -8,11 +8,6 @@ paginate:            5
 paginate_path:       '/contents/page:num'
 permalink:           pretty
 
-# About/contact
-# author:
-#   name:              Mark Otto
-#   url:               https://twitter.com/mdo
-#   email:             markdotto@gmail.com
 author:
   name:              Jaybe Park
   url:               https://github.com/jaybe-park
