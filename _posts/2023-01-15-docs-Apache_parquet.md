@@ -79,7 +79,7 @@ select col_n from tb;
 
 아래는 파케이 파일의 구조를 간략하게 나타낸 그림입니다.
 
-![python-keepitunderyourpillow](/assets/2023-02-25-parquet_structure.png) 
+![parquet_structure](/assets/2023-02-25-parquet_structure.png) 
 
 * 바디(Body)
   * 데이터가 실제 저장되는 부분

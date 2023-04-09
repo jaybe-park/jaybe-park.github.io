@@ -13,7 +13,7 @@ title: About
 
 * [Email](mailto:jaybe.jongbeom.park@gmail.com) (jaybe.jongbeom.park@gmail.com)
 * [Github](https://github.com/jaybe-park)
-* [Linked In](https://www.linkedin.com/in/jaybe-park-873760209/)
+* [Linked In](https://www.linkedin.com/in/jongbeom-park-873760209/)
 * [Stack Overflow](https://stackoverflow.com/users/15273610/jaybe-park)
 
 ## Blog
