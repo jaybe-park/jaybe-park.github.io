@@ -42,6 +42,10 @@ html {
   line-height: 85%;
 }
 
+strong {
+  font-weight: 500;
+}
+
 .sidebar-nav-item-sub::before {
   content: "";
   padding-left: 1em;
