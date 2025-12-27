@@ -85,3 +85,14 @@ strong {
   content: "";
   padding-left: 1em;
 }
+
+  .cat-chips { margin: 0 0 1rem 0; }
+  .cat-chips .chip {
+    display:inline-block; padding:0.25rem 0.6rem; margin:0 0.3rem 0.3rem 0;
+    border:1px solid #ddd; border-radius:9999px; font-size:0.85rem; text-decoration:none; cursor:pointer;
+  }
+  .cat-chips .chip.active {
+    background:#ac4142; color:#fff; border-color:#ac4142;
+  }
+
+  .hidden { display: none !important; }

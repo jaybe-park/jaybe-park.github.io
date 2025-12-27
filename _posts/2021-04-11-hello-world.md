@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 블로그 시작
-category: Essay
+category: essay
 tag: essay
 ---
 

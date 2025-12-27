@@ -1,8 +1,7 @@
 ---
 layout: post
 title: 파일 시그니처 (File Signature)
-category: Data Engineering
-tag: 
+category: data-engineering
 ---
 
 

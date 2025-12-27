@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2. Apache Avro
-category: Docs
+category: docs
 tag: [Docs, Apache avro, 에이브로, 아브로]
 ---
 

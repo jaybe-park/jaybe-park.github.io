@@ -26,4 +26,19 @@ layout: null
 
     </url>
   {% endfor %}
+
+  {% for page in site.pages %}
+    {% if page.url and page.url != '/sitemap.xml' and page.url != '/atom.xml' and page.url != '/404.html' %}
+      <url>
+        <loc>{{ site.url }}{{ page.url }}</loc>
+        {% if page.lastmod %}
+          <lastmod>{{ page.lastmod | date_to_xmlschema }}</lastmod>
+        {% else %}
+          <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+        {% endif %}
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    {% endif %}
+  {% endfor %}
 </urlset>

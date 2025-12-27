@@ -6,7 +6,7 @@ url:                 'https://jaybe-park.github.io'
 baseurl:             ''
 paginate:            5
 paginate_path:       '/contents/page:num'
-permalink:           pretty
+permalink:           /contents/:categories/:title/
 
 author:
   name:              Jaybe Park
@@ -32,5 +32,6 @@ plugins:
   - jekyll-paginate
 
 # Custom vars
-version:             0.0.1
+version:             0.1.0
+
 google_analytics_id: 'G-Y21CZK44EN'

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Intro - Keep it under your pillow
-category: Docs
+category: docs
 tag: Docs
 ---
 

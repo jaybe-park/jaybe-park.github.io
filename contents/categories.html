@@ -6,13 +6,17 @@ title: Categories
 <div class="tags-expo">
   <div class="tags-expo-list">
     {% for tag in site.categories %}
-    <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
+      {% assign slug = tag[0] %}
+      {% assign label = site.data.category_labels[slug] | default: tag[0] %}
+      <a href="#{{ slug }}" class="post-tag">{{ label }}</a>
     {% endfor %}
   </div>
   <hr/>
   <div class="tags-expo-section">
     {% for tag in site.categories %}
-    <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
+      {% assign slug = tag[0] %}
+      {% assign label = site.data.category_labels[slug] | default: tag[0] %}
+      <h2 id="{{ slug }}">{{ label }}</h2>
     <ul class="tags-expo-posts">
       {% for post in tag[1] %}
         <h4><a class="post-title" href="{{ site.baseurl }}{{ post.url }}">

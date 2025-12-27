@@ -4,23 +4,30 @@ title: About
 ---
 
 
-안녕하세요<br>
-박종범, 제이비입니다.
+안녕하세요
 
-이 공간은 개인적인 생각, 공부한 결과물 등을 정리해놓은 블로그입니다.<br>
-저는 게으른 개발자라 결과물을 누가 보고있지 않으면 정리를 잘 안해놓더라구요.<br>
-조언해주실 내용 있으면 언제든지 연락주세요.
+박종범, 제이비입니다.<br>
+데이터를 기반으로 무언가를 하고 있습니다.<br>
 
+이 블로그는 제가 공부하고 실험한 내용을 기록하기 위한 공간입니다.<br>
+기록은 누군가에게 도움이 될 때 가장 가치 있다고 믿습니다.<br>
+가끔은 제 글이 누군가에게 힌트가 되기를 기대합니다.
+
+---
+
+## Contact
 * [Email](mailto:jaybe.jongbeom.park@gmail.com) (jaybe.jongbeom.park@gmail.com)
 * [Github](https://github.com/jaybe-park)
 * [Linked In](https://www.linkedin.com/in/jongbeom-park-873760209/)
 * [Stack Overflow](https://stackoverflow.com/users/15273610/jaybe-park)
 
-## Blog
-이 블로그를 만들 때 아래 사이트 혹은 프로젝트에서 도움을 받았습니다.  
-간단한 블로그이지만 막상 시작하려고 보니 어떻게 해야 할 지 모르겠더라구요.  
-개발 블로그를 만들고 싶은데 도움을 받고 싶으신 분들은 위 연락처로 언제든지 연락주세요.  
-대단치 않은 실력이지만 같이 고민해봅시다.
+---
+
+## About This Blog
+이 블로그는 GitHub Pages와 Jekyll 기반으로 만들어졌습니다.  
+최소한의 디자인, 명확한 정보 전달, 그리고 실험적인 기술 기록을 목표로 합니다.  
+
+## Credit
 
 * [Github Pages](https://pages.github.com/)
 * [Jekyll](https://jekyllrb.com/)
