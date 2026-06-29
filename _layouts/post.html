@@ -2,17 +2,31 @@
 layout: default
 ---
 
+{% assign words = content | number_of_words %}
+{% assign reading_time = words | divided_by: 200 %}
+{% if reading_time < 1 %}{% assign reading_time = 1 %}{% endif %}
+
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <h4 class="post-description">
     <span class="post-date">{{ page.date | date_to_string }}</span>
-    {% if page.tags %} 
-    <span class="post-date">|</span>
+    <span class="post-date"> · {{ reading_time }}분 읽기</span>
+    {% if page.tags %}
+    <span class="post-date"> | </span>
     {% for tag in page.tags %}
-    <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">
-      {{ tag }}
-    </a>
-  {% endfor %}{% endif %}
+    <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
+    {% endfor %}
+    {% endif %}
   </h4>
+
   {{ content }}
+
+  <div class="post-nav">
+    {% if page.previous.url %}
+    <a class="post-nav-prev" href="{{ page.previous.url | absolute_url }}">← {{ page.previous.title }}</a>
+    {% endif %}
+    {% if page.next.url %}
+    <a class="post-nav-next" href="{{ page.next.url | absolute_url }}">{{ page.next.title }} →</a>
+    {% endif %}
+  </div>
 </div>

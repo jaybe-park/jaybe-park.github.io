@@ -96,3 +96,15 @@ strong {
   }
 
   .hidden { display: none !important; }
+
+/* Post navigation (prev/next) */
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eee;
+  font-size: 0.9rem;
+}
+.post-nav-prev { margin-right: auto; }
+.post-nav-next { margin-left: auto; text-align: right; }
