@@ -50,21 +50,13 @@ _posts/YYYY-MM-DD-slug.md
 ---
 layout: post
 title: "포스트 제목"
-category: paper          # paper | docs | essay | data-engineering | python-advanced
+category: slug           # _data/category_labels.yml 참고
 tag: 태그명              # 선택사항, 복수 시 [tag1, tag2]
 description: "한 줄 설명"  # 선택사항, 목록 페이지에 노출
 ---
 ```
 
-### 카테고리 목록 (`_data/category_labels.yml`)
-
-| slug | 표시명 |
-|------|--------|
-| `paper` | Paper |
-| `docs` | Docs |
-| `essay` | Essay |
-| `data-engineering` | Data Engineering |
-| `python-advanced` | Python Advanced |
+카테고리 slug 목록은 `_data/category_labels.yml` 참고.
 
 ### 이미지 경로
 ```markdown
