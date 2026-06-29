@@ -1,44 +1,404 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
+  
     <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {% if post.lastmod == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
-      {% endif %}
+      <loc>https://jaybe-park.github.io/contents/paper/2509.17765/</loc>
+      
+        <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+      
 
-      {% if post.sitemap.changefreq == null %}
+      
         <changefreq>weekly</changefreq>
-      {% else %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-      {% endif %}
+      
 
-      {% if post.sitemap.priority == null %}
+      
           <priority>0.5</priority>
-      {% else %}
-        <priority>{{ post.sitemap.priority }}</priority>
-      {% endif %}
+      
 
     </url>
-  {% endfor %}
+  
+    <url>
+      <loc>https://jaybe-park.github.io/contents/docs/docs-snappy/</loc>
+      
+        <lastmod>2024-12-13T00:00:00+00:00</lastmod>
+      
 
-  {% for page in site.pages %}
-    {% if page.url and page.url != '/sitemap.xml' and page.url != '/atom.xml' and page.url != '/404.html' %}
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://jaybe-park.github.io/contents/paper/2409.12917/</loc>
+      
+        <lastmod>2024-10-23T00:00:00+00:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://jaybe-park.github.io/contents/paper/2410.05258/</loc>
+      
+        <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://jaybe-park.github.io/contents/paper/2410.13720/</loc>
+      
+        <lastmod>2024-10-21T00:00:00+00:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://jaybe-park.github.io/contents/paper/2410.10814/</loc>
+      
+        <lastmod>2024-10-18T00:00:00+00:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://jaybe-park.github.io/contents/paper/2410.09732/</loc>
+      
+        <lastmod>2024-10-17T00:00:00+00:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://jaybe-park.github.io/contents/paper/2410.09342/</loc>
+      
+        <lastmod>2024-10-17T00:00:00+00:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://jaybe-park.github.io/contents/docs/docs-Apache_avro/</loc>
+      
+        <lastmod>2023-05-07T00:00:00+00:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://jaybe-park.github.io/contents/data-engineering/file_signature/</loc>
+      
+        <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://jaybe-park.github.io/contents/essay/kpt2022/</loc>
+      
+        <lastmod>2023-02-11T00:00:00+00:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://jaybe-park.github.io/contents/docs/docs-Apache_parquet/</loc>
+      
+        <lastmod>2023-01-15T00:00:00+00:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://jaybe-park.github.io/contents/docs/docs-intro/</loc>
+      
+        <lastmod>2023-01-14T00:00:00+00:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://jaybe-park.github.io/contents/essay/roadmap-of-jaybe/</loc>
+      
+        <lastmod>2022-12-31T00:00:00+00:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://jaybe-park.github.io/contents/essay/interview-review/</loc>
+      
+        <lastmod>2022-12-17T00:00:00+00:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://jaybe-park.github.io/contents/essay/cv-review/</loc>
+      
+        <lastmod>2022-12-06T00:00:00+00:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://jaybe-park.github.io/contents/essay/re-hello-world/</loc>
+      
+        <lastmod>2022-11-18T00:00:00+00:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://jaybe-park.github.io/contents/python-advanced/python-logging-level/</loc>
+      
+        <lastmod>2021-04-25T00:00:00+00:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://jaybe-park.github.io/contents/essay/hello-world/</loc>
+      
+        <lastmod>2021-04-11T00:00:00+00:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+
+  
+    
+  
+    
       <url>
-        <loc>{{ site.url }}{{ page.url }}</loc>
-        {% if page.lastmod %}
-          <lastmod>{{ page.lastmod | date_to_xmlschema }}</lastmod>
-        {% else %}
-          <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-        {% endif %}
+        <loc>https://jaybe-park.github.io/about/</loc>
+        
+          <lastmod>2026-06-29T12:47:12+00:00</lastmod>
+        
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
       </url>
-    {% endif %}
-  {% endfor %}
+    
+  
+    
+  
+    
+      <url>
+        <loc>https://jaybe-park.github.io/contents/categories/</loc>
+        
+          <lastmod>2026-06-29T12:47:12+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://jaybe-park.github.io/contents/</loc>
+        
+          <lastmod>2026-06-29T12:47:12+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://jaybe-park.github.io/</loc>
+        
+          <lastmod>2026-06-29T12:47:12+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
+  
+    
+  
+    
+      <url>
+        <loc>https://jaybe-park.github.io/contents/tags/</loc>
+        
+          <lastmod>2026-06-29T12:47:12+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://jaybe-park.github.io/contents/page2/</loc>
+        
+          <lastmod>2026-06-29T12:47:12+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://jaybe-park.github.io/contents/page3/</loc>
+        
+          <lastmod>2026-06-29T12:47:12+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://jaybe-park.github.io/contents/page4/</loc>
+        
+          <lastmod>2026-06-29T12:47:12+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
+  
 </urlset>

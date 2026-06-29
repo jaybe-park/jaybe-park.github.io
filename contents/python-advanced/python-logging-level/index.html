@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Python - Logging Level &middot; Jaybe Park
+    
+  </title>
+
+  
+  <link rel="canonical" href="https://jaybe-park.github.io/contents/python-advanced/python-logging-level/">
+  
+
+  <link rel="stylesheet" href="https://jaybe-park.github.io/public/css/poole.css">
+  <link rel="stylesheet" href="https://jaybe-park.github.io/public/css/syntax.css">
+  <link rel="stylesheet" href="https://jaybe-park.github.io/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://jaybe-park.github.io/public/css/jaybe.css">
+  
+  <!-- Noto Sans KR -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://jaybe-park.github.io/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="https://jaybe-park.github.io/public/favicon.ico">
+
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="https://jaybe-park.github.io/atom.xml">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y21CZK44EN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-Y21CZK44EN');
+  </script>
+
+</head>
+
+
+
+
+<body class="theme-base-08">
+
+  <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-description sidebar-item">
+    <p>박종범<br>Jaybe Park</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    
+      
+      
+      
+
+      
+
+      <span class="">
+        <a class="sidebar-nav-item " href="/">
+          Home
+        </a>
+
+        
+      </span>
+
+    
+      
+      
+      
+
+      
+
+      <span class="foldable">
+        <a class="sidebar-nav-item " href="/contents/">
+          Contents
+        </a>
+
+        
+          
+            
+            
+            
+              <a class="sidebar-nav-item sidebar-nav-item-sub " href="/contents/categories/">
+                Categories
+              </a>
+          
+        
+      </span>
+
+    
+      
+      
+      
+
+      
+
+      <span class="">
+        <a class="sidebar-nav-item " href="/about/">
+          About
+        </a>
+
+        
+      </span>
+
+    
+
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      Currently v0.1.0
+    </p>
+    <p>
+      &copy; 2026. Jaybe Park. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+  <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+  <div class="wrap">
+    <div class="masthead">
+      <div class="container">
+        <h3 class="masthead-title">
+          <a href="/" title="Home">Jaybe Park</a>
+          <small>Data Engineer, Data Scientist, Developer</small>
+        </h3>
+      </div>
+    </div>
+
+    <div class="container content">
+      <div class="post">
+  <h1 class="post-title">Python - Logging Level</h1>
+  <h4 class="post-description">
+    <span class="post-date">25 Apr 2021</span>
+     
+    <span class="post-date">|</span>
+    
+    <a href="/contents/tags/#python" class="post-tag">
+      Python
+    </a>
+  
+    <a href="/contents/tags/#python-advanced" class="post-tag">
+      Python Advanced
+    </a>
+  
+    <a href="/contents/tags/#logging" class="post-tag">
+      logging
+    </a>
+  
+  </h4>
+  <h1 id="logging-level">Logging Level</h1>
+<p>파이썬은 기본적으로 5 단계의 로깅 레벨을 지원한다.</p>
+
+<ul>
+  <li>DEBUG
+    <ul>
+      <li>상세 정보</li>
+      <li>주로 개발할 때 쓰이고, 실제 운영시에는 출력하지 않는다</li>
+      <li>기본적으로 로깅은 모든 동작을 자세하게 출력하는 것이 좋다. 나중에 에러가 발생했을 때, 어디에서 문제가 발생했는지 파악하기 쉽기 때문이다.</li>
+    </ul>
+  </li>
+  <li>INFO
+    <ul>
+      <li>정보성 로그</li>
+      <li>DEBUG보다는 중요하지만, 꼭 봐야 하는 로그는 아닐 때 출력하는 경우가 많다.</li>
+      <li>ex) DB Connection 정상 생성/종료, 데이터 로드 완료 등</li>
+    </ul>
+  </li>
+  <li>WARNING
+    <ul>
+      <li>경고</li>
+      <li>예상치 못한 일이 발생했을 때 or 가까운 미래에 발생할 문제에 대한 정보</li>
+      <li>ex) 디스크 부족이 예상 될 때 현재 사용중인 디스크 용량과 잔여 용량을 출력</li>
+    </ul>
+  </li>
+  <li>ERROR
+    <ul>
+      <li>문제 발생</li>
+      <li>프로그램이 일부 기능을 수행하지 못했을 때 관련된 정보를 출력</li>
+      <li>ex) 데이터베이스 문제로 일부 정보를 불러오지 못했을 때</li>
+    </ul>
+  </li>
+  <li>CRITICAL
+    <ul>
+      <li>심각한 에러</li>
+      <li>프로그램 자체가 실행이 멈추거나 비정상 종료했을 때 관련된 정보를 출력</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="level-별-주의사항">Level 별 주의사항</h2>
+<h3 id="warning-과-error의-차이">WARNING 과 ERROR의 차이</h3>
+
+<p>WARNING은 문제에 대한 사전 경고의 의미로 쓰여야 한다. 따라서, WARNING이 발생해도 프로그램을 정상적으로 동작해야 한다. 하지만 ERROR는 프로그램의 기능 중에 일부가 동작하지 않거나 실패했을 때 쓰여야 한다.</p>
+
+<p>ex) DB Connection이 몇개 남지 않았음 → WARNING<br />
+ex) DB Connection이 모두 사용중이라 데이터를 불러올 수 없음 → ERROR</p>
+
+<h3 id="error와-critical의-차이">ERROR와 CRITICAL의 차이</h3>
+
+<p>ERROR와 CRITICAL은 모두 프로그램의 동작 실패를 나타내는데 쓰인다. 하지만, ERROR는 (일부) 기능의 실패에 쓰인다. 반면에 CRITICAL은 더욱 심각한 에러, 예를 들면 프로그램 전체가 동작하지 않게 될 때 쓰인다. 따라서, 같은 에러라도 ERROR로 처리되야 할 경우가 있고, CRITICAL으로 처리되야 할 경우가 있다. 예를 들어,</p>
+
+<p>ex) DB Connection이 모두 사용중이라 회원 정보를 불러올 수 없으나 그래도 서비스를 이용할 순 있음 → ERROR<br />
+ex) DB Connection이 모두 사용중이라 메타 정보(버전 정보, 시간대 등)를 불러올 수 없어 프로그램이 정지 → CRITICAL</p>
+
+<hr />
+
+<h2 id="log-level의-실제-값">Log Level의 실제 값</h2>
+
+<p>다른 언어에 대한 경험이 많다면, 또는 logging 모듈을 많이 써보신 분들이라면 짐작하고 계시겠지만, Log Level은 이미 정해진 값이다.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Level</th>
+      <th style="text-align: left">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">CRITICAL</td>
+      <td style="text-align: left">50</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">ERROR</td>
+      <td style="text-align: left">40</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">WARNING</td>
+      <td style="text-align: left">30</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">INFO</td>
+      <td style="text-align: left">20</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">DEBUG</td>
+      <td style="text-align: left">10</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">NOTSET</td>
+      <td style="text-align: left">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">CRITICAL</td>
+      <td style="text-align: left">50</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>실제로 확인해보고 싶으신 분들은 python 에서 간단하게 확인할 수 있다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="n">logging</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nf">print</span><span class="p">(</span><span class="n">logging</span><span class="p">.</span><span class="n">CRITICAL</span><span class="p">)</span>
+<span class="mi">50</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nf">print</span><span class="p">(</span><span class="n">logging</span><span class="p">.</span><span class="n">ERROR</span><span class="p">)</span>
+<span class="mi">40</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nf">print</span><span class="p">(</span><span class="n">logging</span><span class="p">.</span><span class="n">WARNING</span><span class="p">)</span>
+<span class="mi">30</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nf">print</span><span class="p">(</span><span class="n">logging</span><span class="p">.</span><span class="n">INFO</span><span class="p">)</span>
+<span class="mi">20</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nf">print</span><span class="p">(</span><span class="n">logging</span><span class="p">.</span><span class="n">DEBUG</span><span class="p">)</span>
+<span class="mi">10</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nf">print</span><span class="p">(</span><span class="n">logging</span><span class="p">.</span><span class="n">NOTSET</span><span class="p">)</span>
+<span class="mi">0</span>
+</code></pre></div></div>
+
+<p>로그 레벨을 설정하는 것은 출력될 로그의 로그레벨 최소값을 설정하는 것과 같다. 예를 들어, 기본적으로 logging 모듈을 import 했을 때는 로그 레벨이 WARNING으로 설정되어 있기 때문에 warning 아래의 로그 함수를 실행하면 화면에 나타나지 않는다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="n">logging</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">logging</span><span class="p">.</span><span class="nf">debug</span><span class="p">(</span><span class="sh">'</span><span class="s">debug msg</span><span class="sh">'</span><span class="p">)</span>           <span class="c1"># 나타나지 않음
+</span><span class="o">&gt;&gt;&gt;</span> <span class="n">logging</span><span class="p">.</span><span class="nf">info</span><span class="p">(</span><span class="sh">'</span><span class="s">info msg</span><span class="sh">'</span><span class="p">)</span>             <span class="c1"># 나타나지 않음
+</span><span class="o">&gt;&gt;&gt;</span> <span class="n">logging</span><span class="p">.</span><span class="nf">warning</span><span class="p">(</span><span class="sh">'</span><span class="s">warning msg</span><span class="sh">'</span><span class="p">)</span>
+<span class="n">WARNING</span><span class="p">:</span><span class="n">root</span><span class="p">:</span><span class="n">warning</span> <span class="n">msg</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">logging</span><span class="p">.</span><span class="nf">error</span><span class="p">(</span><span class="sh">'</span><span class="s">error msg</span><span class="sh">'</span><span class="p">)</span>
+<span class="n">ERROR</span><span class="p">:</span><span class="n">root</span><span class="p">:</span><span class="n">error</span> <span class="n">msg</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">logging</span><span class="p">.</span><span class="nf">critical</span><span class="p">(</span><span class="sh">'</span><span class="s">critical msg</span><span class="sh">'</span><span class="p">)</span>
+<span class="n">CRITICAL</span><span class="p">:</span><span class="n">root</span><span class="p">:</span><span class="n">critical</span> <span class="n">msg</span>
+</code></pre></div></div>
+
+<p>위의 출력된 로그를 살펴보면, 로그 레벨과 메세지말고도 <code class="language-plaintext highlighter-rouge">root</code>라는 문구가 같이 출력되는 것을 알 수 있다. 이 문구는 나중에 살펴볼 logger의 이름이니 지금은 신경쓰지 않고 넘어가도 된다.</p>
+
+<p>logging 모듈에는 편의성을 위해 제공되는 위 5개의 함수 말고, 로그레벨을 지정하여 로그를 발생시키는 log라는 함수가 존재한다. 이 함수를 이용하여 위와 같은 결과를 얻고 싶으면 다음과 같이 실행하면 된다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">logging</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="sh">'</span><span class="s">debug msg</span><span class="sh">'</span><span class="p">)</span>         <span class="c1"># 나타나지 않음
+</span><span class="o">&gt;&gt;&gt;</span> <span class="n">logging</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="sh">'</span><span class="s">info msg</span><span class="sh">'</span><span class="p">)</span>          <span class="c1"># 나타나지 않음
+</span><span class="o">&gt;&gt;&gt;</span> <span class="n">logging</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="mi">30</span><span class="p">,</span> <span class="sh">'</span><span class="s">warning msg</span><span class="sh">'</span><span class="p">)</span>
+<span class="n">WARNING</span><span class="p">:</span><span class="n">root</span><span class="p">:</span><span class="n">warning</span> <span class="n">msg</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">logging</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="mi">40</span><span class="p">,</span> <span class="sh">'</span><span class="s">error msg</span><span class="sh">'</span><span class="p">)</span>
+<span class="n">ERROR</span><span class="p">:</span><span class="n">root</span><span class="p">:</span><span class="n">error</span> <span class="n">msg</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">logging</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="sh">'</span><span class="s">critical msg</span><span class="sh">'</span><span class="p">)</span>
+<span class="n">CRITICAL</span><span class="p">:</span><span class="n">root</span><span class="p">:</span><span class="n">critical</span> <span class="n">msg</span>
+</code></pre></div></div>
+
+<p>따라서, 이렇게 생각할 수 있다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">logging</span><span class="p">.</span><span class="nf">debug</span><span class="p">(</span><span class="sh">'</span><span class="s">debug msg</span><span class="sh">'</span><span class="p">)</span> <span class="o">==</span> <span class="n">logging</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="sh">'</span><span class="s">debug msg</span><span class="sh">'</span><span class="p">)</span>
+<span class="n">logging</span><span class="p">.</span><span class="nf">info</span><span class="p">(</span><span class="sh">'</span><span class="s">info msg</span><span class="sh">'</span><span class="p">)</span> <span class="o">==</span> <span class="n">logging</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="sh">'</span><span class="s">info msg</span><span class="sh">'</span><span class="p">)</span>
+<span class="n">logging</span><span class="p">.</span><span class="nf">warning</span><span class="p">(</span><span class="sh">'</span><span class="s">warning msg</span><span class="sh">'</span><span class="p">)</span> <span class="o">==</span> <span class="n">logging</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="mi">30</span><span class="p">,</span> <span class="sh">'</span><span class="s">warning msg</span><span class="sh">'</span><span class="p">)</span>
+<span class="n">logging</span><span class="p">.</span><span class="nf">error</span><span class="p">(</span><span class="sh">'</span><span class="s">error msg</span><span class="sh">'</span><span class="p">)</span> <span class="o">==</span> <span class="n">logging</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="mi">40</span><span class="p">,</span> <span class="sh">'</span><span class="s">error msg</span><span class="sh">'</span><span class="p">)</span>
+<span class="n">logging</span><span class="p">.</span><span class="nf">critical</span><span class="p">(</span><span class="sh">'</span><span class="s">critical msg</span><span class="sh">'</span><span class="p">)</span> <span class="o">==</span> <span class="n">logging</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="sh">'</span><span class="s">critical msg</span><span class="sh">'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="사용자-정의-로그-레벨">사용자 정의 로그 레벨</h2>
+
+<p>그렇다면, 내가 로그 레벨을 정의해서 사용할 수는 없을까?</p>
+
+<p>예를 들어 로그 레벨을 31을 사용하고 싶으면 다음과 같이 사용하면 된다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">logging</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="mi">31</span><span class="p">,</span> <span class="sh">'</span><span class="s">log level 31 msg</span><span class="sh">'</span><span class="p">)</span>
+<span class="n">Level</span> <span class="mi">31</span><span class="p">:</span><span class="n">root</span><span class="p">:</span><span class="n">log</span> <span class="n">level</span> <span class="mi">31</span> <span class="n">msg</span>
+</code></pre></div></div>
+
+<p>로그 레벨이 31이므로, Default로 정해진 로그레벨인 WARNING(값: 30) 이상이기 때문에 출력 결과를 볼 수 있다. 로그 레벨이 29인 메세지는 보이지 않는다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">logging</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="mi">29</span><span class="p">,</span> <span class="sh">'</span><span class="s">log level 29 msg</span><span class="sh">'</span><span class="p">)</span>      <span class="c1"># 나타나지 않음
+</span></code></pre></div></div>
+
+<p>그런데, “Level 31”로 나타나는 것은 뭔가 맘에 들지 않는다. 따라서 WARNING보다 조금 높은 로그 레벨이라는 의미로 로그 레벨 31에 “WARNING+”라는 이름을 붙이고 싶다. 이 경우에는 아래와 같이 사용하면 가능하다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">logging</span><span class="p">.</span><span class="nf">addLevelName</span><span class="p">(</span><span class="mi">31</span><span class="p">,</span> <span class="sh">'</span><span class="s">WARNING+</span><span class="sh">'</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">logging</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="mi">31</span><span class="p">,</span> <span class="sh">'</span><span class="s">Level 31 msg</span><span class="sh">'</span><span class="p">)</span>
+<span class="n">WARNING</span><span class="o">+</span><span class="p">:</span><span class="n">root</span><span class="p">:</span><span class="n">Level</span> <span class="mi">31</span> <span class="n">msg</span>
+</code></pre></div></div>
+
+<p>하지만, 파이썬 공식 docs에는 사용자 정의 로깅 레벨을 정의하는 것을 추천하지 않는다. (거의 하지말라는 느낌) 많은 실무 경험을 토대로 파이썬 개발자들이 정의한 수준이므로, 5가지의 기본 레벨만으로 충분하다고 한다.</p>
+
+<blockquote>
+  <p>특히, 라이브러리를 개발하고 있다면, <strong><em>사용자 지정 수준을 정의하는 것은 매우 나쁜 생각</em></strong> 일수 있다고 한다.</p>
+</blockquote>
+
+<p>사용자가 정의한 로깅 수준은 여러 라이브러리와 (당연하겠지만) 협의되지 않은 것이기 때문에 다른 라이브러리 및 사용자가 로깅 결과를 제어/해석하는 것이 어려울 수 있기 때문이다.</p>
+
+</div>
+    </div>
+  </div>
+
+  <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+  <script src='/public/js/script.js'></script>
+</body>
+
+</html>
