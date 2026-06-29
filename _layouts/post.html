@@ -21,6 +21,8 @@ layout: default
 
   {{ content }}
 
+  {% include comments.html %}
+
   <div class="post-nav">
     {% if page.previous.url %}
     <a class="post-nav-prev" href="{{ page.previous.url | absolute_url }}">← {{ page.previous.title }}</a>
