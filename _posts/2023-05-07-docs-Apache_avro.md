@@ -1,18 +1,13 @@
 ---
 layout: post
-title: 2. Apache Avro
+title: Apache Avro
 category: engineering
 tag: [Docs, Apache avro, 에이브로, 아브로]
 ---
 
-Docs 시리즈는 공식 Docs를 통해 기술을 올바르게 이해하는 시리즈 입니다.
-
 * 원문
   * [Apache Avro 공식 Docs](https://avro.apache.org/docs/)
   * [Apache Avro 영문 Wiki](https://en.wikipedia.org/wiki/Apache_Avro)
-
-아직 Docs 시리즈는 형식이나 구성이 완전하진 않습니다. 글의 시인성이 좀 떨어지는 것 같아 구성을 바꿀수도 있을 것 같습니다.  
-피드백이나 의견 있으시면 언제든지 [연락](/about)주세요.
 
 ---
 

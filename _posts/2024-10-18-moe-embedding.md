@@ -4,15 +4,6 @@ title: "YOUR MIXTURE-OF-EXPERTS LLM IS SECRETLY AN EMBEDDING MODEL FOR FREE"
 category: paper
 ---
 
-> **Daily Paper**
-
-하루에 한 논문을 30분 안에 간단하게 살펴본 결과를 기록하는 포스트입니다.
-
-논문을 살펴볼 때 ChatGPT의 도움을 적극적으로 받으며, 따라서 포스트에 잘못된 내용이나 오류가 있을 수 있습니다.
-
-피드백이나 의견 있으시면 언제든지 [연락](/about)주세요.
-
----
 # 3줄 요약
 - LLM의 한계(인코딩 과정에 부적합)에 대한 연구가 활발히 일어나고 있음
 - Mixture-of-Experts (MoE) 모델의 **라우팅 가중치(Routing Weights, RW)**가 대형 언어 모델(LLM)에서 임베딩 작업에 활용될 수 있음을 제안

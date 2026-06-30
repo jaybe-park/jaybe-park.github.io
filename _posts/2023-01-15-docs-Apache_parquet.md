@@ -1,20 +1,13 @@
 ---
 layout: post
-title: 1. Apache Parquet
+title: Apache Parquet
 category: engineering
 tag: [Docs, Apache Parquet, 아파치 파케이]
 ---
 
-Docs 시리즈는 공식 Docs를 통해 기술을 올바르게 이해하는 시리즈 입니다.
-
 * 원문
   * [Apache Parquet 공식 Docs](https://parquet.apache.org/docs/) - Parquet에 대한 전반적인 내용 및 안내
   * [parquet-foramt의 README.md](https://github.com/apache/parquet-format#readme) - Parquet 파일의 포멧에 대한 프로젝트
-* 위 두 링크를 제가 임의로 내용을 합쳐서 번역하였으며, 이해에 도움이 될 방향으로 정리하였습니다.
-
-이번 글은 Docs 시리즈의 첫 시작이라 형식이나 구성이 완전하진 않습니다. 글의 시인성이 좀 떨어지는 것 같아 구성을 바꿀수도 있을 것 같습니다.
-
-피드백이나 의견 있으시면 언제든지 [연락](/about)주세요.
 
 ---
 

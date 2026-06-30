@@ -4,15 +4,6 @@ title: "Training Language Models to Self-Correct via Reinforcement Learning"
 category: paper
 ---
 
-> **Daily Paper**
-
-하루에 한 논문을 30분 안에 간단하게 살펴본 결과를 기록하는 포스트입니다.
-
-논문을 살펴볼 때 ChatGPT의 도움을 적극적으로 받으며, 따라서 포스트에 잘못된 내용이나 오류가 있을 수 있습니다.
-
-피드백이나 의견 있으시면 언제든지 [연락](/about)주세요.
-
----
 # 3줄 요약
 - LLM은 다양한 문제를 훌륭하게 해결하지만, 자신의 답변에서 오류를 스스로 인식하고 수정하는 능력은 상대적으로 약함
 - 학습 과정을 2단계(답변 생성 -> 답변 수정)으로 나누어서 학습하게 하여 자기수정(self-correct) 능력을 크게 향상

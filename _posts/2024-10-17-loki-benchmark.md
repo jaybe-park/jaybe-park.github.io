@@ -4,15 +4,6 @@ title: "LOKI: A Comprehensive Synthetic Data Detection Benchmark using Large Mul
 category: paper
 ---
 
-> **Daily Paper**
-
-하루에 한 논문을 30분 안에 간단하게 살펴본 결과를 기록하는 포스트입니다.
-
-논문을 살펴볼 때 ChatGPT의 도움을 적극적으로 받으며, 따라서 포스트에 잘못된 내용이나 오류가 있을 수 있습니다.
-
-피드백이나 의견 있으시면 언제든지 [연락](/about)주세요.
-
----
 # 3줄 요약
 
 - Gen AI를 통해 합성/생성된 데이터를 판단하는 것에 LLM을 사용하면 설명을 제공할 수 있어 설명 가능성 (explainability) 측면에서 장점이 있다

@@ -4,15 +4,6 @@ title: "LLM×MapReduce: Simplified Long-Sequence Processing using Large Language
 category: paper
 ---
 
-> **Daily Paper**
-
-하루에 한 논문을 30분 안에 간단하게 살펴본 결과를 기록하는 포스트입니다.
-
-논문을 살펴볼 때 ChatGPT의 도움을 적극적으로 받으며, 따라서 포스트에 잘못된 내용이나 오류가 있을 수 있습니다.
-
-피드백이나 의견 있으시면 언제든지 [연락](/about)주세요.
-
----
 # 3줄 요약
 - LLM의 제한된 문맥길이를 극복하기 위해 긴 문서를 작은 조각(chunk)로 나누어 개별적으로 처리하는 방법을 제안
 - 조각 간 의존성, 조각 간 충돌 문제를 해결하기 위해 조각 간 의미를 전달하고 평가할 수 있는 방법을 제시

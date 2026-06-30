@@ -4,15 +4,6 @@ title: "Differential Transformer"
 category: paper
 ---
 
-> **Daily Paper**
-
-하루에 한 논문을 30분 안에 간단하게 살펴본 결과를 기록하는 포스트입니다.
-
-논문을 살펴볼 때 ChatGPT의 도움을 적극적으로 받으며, 따라서 포스트에 잘못된 내용이나 오류가 있을 수 있습니다.
-
-피드백이나 의견 있으시면 언제든지 [연락](/about)주세요.
-
----
 # 3줄 요약
 - 두 Softmax Attention 맵을 계산한 후, 이를 서로 차감하여 최종 Attention Score를 계산하는 Diffrential Attention Mechanism을 제시
 - 노이즈 제거, 긴 문맥 처리 능력 강화, 헐루시네이션 완화, In-context 학습 성능 향상, 모델 크기 효율성 등의 여러 면에서 기존 트랜스포머 모델에 비해 뛰어난 성능을 보임
