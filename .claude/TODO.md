@@ -5,10 +5,11 @@
 > 기능보다 우선. 콘텐츠가 블로그의 90%.
 
 - [ ] **About + 태그라인 재작성** — 정체성 확정, "카카오게임즈 데이터" 전면에 (`_config.yml` tagline/description, `about.md`)
-- [ ] **arXiv ID 제목 정리** — `2410.09342` 류 → 사람이 읽는 제목으로 + "GPT 30분" 디스클레이머 톤 수정
+- [x] **arXiv ID 파일명 정리** — slug를 readable로 변경 (llm-mapreduce, differential-transformer 등), 배너·면책문 제거
 - [x] **카테고리 5개 → 3개 통합** — engineering / paper / notes (permalink에서 :categories 제거, URL은 `/contents/:title/`)
+- [x] **드래프트 청소** — RealMySQL/Airflow/data-something/parquet_translated/work 삭제, sf_presentation_experience·apsara-2025 발행 예정으로 유지
 - [ ] **홈 대표글(Start Here) 섹션** — 베스트 3~4개 고정 (면접 글, Parquet, 회고)
-- [ ] **드래프트 청소** — 안 끝낼 글 매장 (RealMySQL, Airflow, data-something)
+- [ ] **About + 태그라인 재작성** — 정체성 확정, "카카오게임즈 데이터" 전면에 (`_config.yml` tagline/description, `about.md`)
 - [ ] **논문 리뷰에 "내 도메인 쓸모" 관점 추가** — 게임 데이터 실무자 시점 한 줄
 
 ---
