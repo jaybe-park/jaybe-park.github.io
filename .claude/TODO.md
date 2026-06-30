@@ -1,5 +1,18 @@
 # TODO
 
+## 콘텐츠 전략 (최우선 — 근거: `.claude/docs/blog-consulting.md`)
+
+> 기능보다 우선. 콘텐츠가 블로그의 90%.
+
+- [ ] **About + 태그라인 재작성** — 정체성 확정, "카카오게임즈 데이터" 전면에 (`_config.yml` tagline/description, `about.md`)
+- [ ] **arXiv ID 제목 정리** — `2410.09342` 류 → 사람이 읽는 제목으로 + "GPT 30분" 디스클레이머 톤 수정
+- [ ] **카테고리 5개 → 3개 통합** — Data Engineering / Paper & ML / Career & Notes (`_data/category_labels.yml` + 각 포스트 front matter)
+- [ ] **홈 대표글(Start Here) 섹션** — 베스트 3~4개 고정 (면접 글, Parquet, 회고)
+- [ ] **드래프트 청소** — 안 끝낼 글 매장 (RealMySQL, Airflow, data-something)
+- [ ] **논문 리뷰에 "내 도메인 쓸모" 관점 추가** — 게임 데이터 실무자 시점 한 줄
+
+---
+
 ## 브랜치 / 배포 정리
 
 - [x] `gh-pages` → `main` 브랜치 rename
