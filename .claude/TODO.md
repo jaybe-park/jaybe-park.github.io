@@ -4,12 +4,14 @@
 
 > 기능보다 우선. 콘텐츠가 블로그의 90%.
 
-- [ ] **About + 태그라인 재작성** — 정체성 확정, "카카오게임즈 데이터" 전면에 (`_config.yml` tagline/description, `about.md`)
 - [x] **arXiv ID 파일명 정리** — slug를 readable로 변경 (llm-mapreduce, differential-transformer 등), 배너·면책문 제거
 - [x] **카테고리 5개 → 3개 통합** — engineering / paper / notes (permalink에서 :categories 제거, URL은 `/contents/:title/`)
 - [x] **드래프트 청소** — RealMySQL/Airflow/data-something/parquet_translated/work 삭제, sf_presentation_experience·apsara-2025 발행 예정으로 유지
-- [ ] **홈 대표글(Start Here) 섹션** — 베스트 3~4개 고정 (면접 글, Parquet, 회고)
 - [ ] **About + 태그라인 재작성** — 정체성 확정, "카카오게임즈 데이터" 전면에 (`_config.yml` tagline/description, `about.md`)
+- [ ] **홈 화면 콘텐츠 추가** — 대표글(Start Here) 섹션 베스트 3~4개 고정 (면접 글, Parquet, 회고 등)
+- [ ] **홈 화면 디자인 개선** — Older/Newer 페이지네이션 버튼 제거 또는 교체
+- [ ] **Contents / Categories 페이지 역할 분리** — 현재 두 페이지가 거의 동일한 구성. Contents는 전체 글 목록(타임라인), Categories는 카테고리별 탐색으로 명확히 나누기
+- [ ] **메뉴에서 포스트 접근성 개선** — 현재 메뉴가 분류 기준만 노출하는 느낌. 어떻게 개선할지 구체적인 방향 논의 필요
 - [ ] **논문 리뷰에 "내 도메인 쓸모" 관점 추가** — 게임 데이터 실무자 시점 한 줄
 
 ---
@@ -56,8 +58,6 @@
 
 ## 블로그 운영 (콘텐츠 / SEO)
 
-- [ ] **드래프트 정리** — `_draft/`에 RealMySQL, Airflow 등 미완성 글, 완성할 것/버릴 것 분류
-- [ ] **About 페이지 보강** — 현재 연락처 나열 수준, 경력·블로그 방향성 추가
 - [ ] **논문 시리즈화** — Attention 계열, MoE 계열 등 주제별로 묶어 시리즈 페이지 구성
 - [ ] **글쓰기 주기 공표** — Weekly Paper 형식이나 업로드 주기 불규칙, 격주라도 고정
 - [ ] **Lighthouse 점수 측정** — 성능/접근성 기준선 확인 후 개선 방향 설정
