@@ -96,3 +96,38 @@ strong {
   }
 
   .hidden { display: none !important; }
+
+/* Post navigation (prev/next) */
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eee;
+  font-size: 0.9rem;
+}
+.post-nav-prev { margin-right: auto; }
+.post-nav-next { margin-left: auto; text-align: right; }
+
+/* Code block copy button */
+pre {
+  position: relative;
+}
+.copy-btn {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.72rem;
+  font-family: "Noto Sans KR", sans-serif;
+  background: rgba(255, 255, 255, 0.1);
+  color: #bbb;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.copy-btn:hover {
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+}
