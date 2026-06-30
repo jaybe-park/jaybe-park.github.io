@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>https://jaybe-park.github.io/contents/2509.17765/</loc>
+      <loc>https://jaybe-park.github.io/contents/qwen3-omni/</loc>
       
         <lastmod>2025-10-02T00:00:00+00:00</lastmod>
       
@@ -34,7 +34,7 @@
     </url>
   
     <url>
-      <loc>https://jaybe-park.github.io/contents/2409.12917/</loc>
+      <loc>https://jaybe-park.github.io/contents/llm-self-correction-rl/</loc>
       
         <lastmod>2024-10-23T00:00:00+00:00</lastmod>
       
@@ -50,7 +50,7 @@
     </url>
   
     <url>
-      <loc>https://jaybe-park.github.io/contents/2410.05258/</loc>
+      <loc>https://jaybe-park.github.io/contents/differential-transformer/</loc>
       
         <lastmod>2024-10-22T00:00:00+00:00</lastmod>
       
@@ -66,7 +66,7 @@
     </url>
   
     <url>
-      <loc>https://jaybe-park.github.io/contents/2410.13720/</loc>
+      <loc>https://jaybe-park.github.io/contents/movie-gen/</loc>
       
         <lastmod>2024-10-21T00:00:00+00:00</lastmod>
       
@@ -82,7 +82,7 @@
     </url>
   
     <url>
-      <loc>https://jaybe-park.github.io/contents/2410.10814/</loc>
+      <loc>https://jaybe-park.github.io/contents/moe-embedding/</loc>
       
         <lastmod>2024-10-18T00:00:00+00:00</lastmod>
       
@@ -98,7 +98,7 @@
     </url>
   
     <url>
-      <loc>https://jaybe-park.github.io/contents/2410.09732/</loc>
+      <loc>https://jaybe-park.github.io/contents/loki-benchmark/</loc>
       
         <lastmod>2024-10-17T00:00:00+00:00</lastmod>
       
@@ -114,7 +114,7 @@
     </url>
   
     <url>
-      <loc>https://jaybe-park.github.io/contents/2410.09342/</loc>
+      <loc>https://jaybe-park.github.io/contents/llm-mapreduce/</loc>
       
         <lastmod>2024-10-17T00:00:00+00:00</lastmod>
       
@@ -181,22 +181,6 @@
       <loc>https://jaybe-park.github.io/contents/docs-Apache_parquet/</loc>
       
         <lastmod>2023-01-15T00:00:00+00:00</lastmod>
-      
-
-      
-        <changefreq>weekly</changefreq>
-      
-
-      
-          <priority>0.5</priority>
-      
-
-    </url>
-  
-    <url>
-      <loc>https://jaybe-park.github.io/contents/docs-intro/</loc>
-      
-        <lastmod>2023-01-14T00:00:00+00:00</lastmod>
       
 
       
@@ -313,7 +297,7 @@
       <url>
         <loc>https://jaybe-park.github.io/about/</loc>
         
-          <lastmod>2026-06-30T01:33:04+00:00</lastmod>
+          <lastmod>2026-06-30T01:49:33+00:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
@@ -326,7 +310,7 @@
       <url>
         <loc>https://jaybe-park.github.io/contents/categories/</loc>
         
-          <lastmod>2026-06-30T01:33:04+00:00</lastmod>
+          <lastmod>2026-06-30T01:49:33+00:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
@@ -337,7 +321,7 @@
       <url>
         <loc>https://jaybe-park.github.io/contents/</loc>
         
-          <lastmod>2026-06-30T01:33:04+00:00</lastmod>
+          <lastmod>2026-06-30T01:49:33+00:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
@@ -348,7 +332,7 @@
       <url>
         <loc>https://jaybe-park.github.io/</loc>
         
-          <lastmod>2026-06-30T01:33:04+00:00</lastmod>
+          <lastmod>2026-06-30T01:49:33+00:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
@@ -361,7 +345,7 @@
       <url>
         <loc>https://jaybe-park.github.io/contents/tags/</loc>
         
-          <lastmod>2026-06-30T01:33:04+00:00</lastmod>
+          <lastmod>2026-06-30T01:49:33+00:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
@@ -372,7 +356,7 @@
       <url>
         <loc>https://jaybe-park.github.io/contents/page2/</loc>
         
-          <lastmod>2026-06-30T01:33:04+00:00</lastmod>
+          <lastmod>2026-06-30T01:49:33+00:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
@@ -383,7 +367,7 @@
       <url>
         <loc>https://jaybe-park.github.io/contents/page3/</loc>
         
-          <lastmod>2026-06-30T01:33:04+00:00</lastmod>
+          <lastmod>2026-06-30T01:49:33+00:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
@@ -394,7 +378,7 @@
       <url>
         <loc>https://jaybe-park.github.io/contents/page4/</loc>
         
-          <lastmod>2026-06-30T01:33:04+00:00</lastmod>
+          <lastmod>2026-06-30T01:49:33+00:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>

@@ -4,7 +4,7 @@
  <title>Jaybe Park</title>
  <link href="https://jaybe-park.github.io/atom.xml" rel="self"/>
  <link href="https://jaybe-park.github.io/"/>
- <updated>2026-06-30T01:33:04+00:00</updated>
+ <updated>2026-06-30T01:49:33+00:00</updated>
  <id>https://jaybe-park.github.io</id>
  <author>
    <name>Jaybe Park</name>
@@ -14,20 +14,10 @@
  
  <entry>
    <title>Qwen3-Omni Technical Report</title>
-   <link href="https://jaybe-park.github.io/contents/2509.17765/"/>
+   <link href="https://jaybe-park.github.io/contents/qwen3-omni/"/>
    <updated>2025-10-02T00:00:00+00:00</updated>
-   <id>https://jaybe-park.github.io/contents/2509.17765</id>
-   <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Weekly Paper&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;한 주에 한 논문을 30분 안에 간단하게 살펴본 결과를 기록하는 포스트입니다.&lt;/p&gt;
-
-&lt;p&gt;논문을 살펴볼 때 ChatGPT의 도움을 적극적으로 받으며, 따라서 포스트에 잘못된 내용이나 오류가 있을 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;피드백이나 의견 있으시면 언제든지 &lt;a href=&quot;/about&quot;&gt;연락&lt;/a&gt;주세요.&lt;/p&gt;
-
-&lt;hr /&gt;
+   <id>https://jaybe-park.github.io/contents/qwen3-omni</id>
+   <content type="html">&lt;hr /&gt;
 &lt;h1 id=&quot;3줄-요약&quot;&gt;3줄 요약&lt;/h1&gt;
 &lt;ul&gt;
   &lt;li&gt;Qwen3-Omni는 텍스트·이미지·오디오·비디오를 동시에 다루면서도 단일 모달 모델과 동등하거나 더 나은 성능을 보이는 최초의 오픈소스 멀티모달 LLM임.&lt;/li&gt;
@@ -134,22 +124,17 @@
  </entry>
  
  <entry>
-   <title>3. Snappy</title>
+   <title>Snappy</title>
    <link href="https://jaybe-park.github.io/contents/docs-snappy/"/>
    <updated>2024-12-13T00:00:00+00:00</updated>
    <id>https://jaybe-park.github.io/contents/docs-snappy</id>
-   <content type="html">&lt;p&gt;Docs 시리즈는 공식 Docs를 통해 기술을 올바르게 이해하는 시리즈 입니다.&lt;/p&gt;
-
-&lt;ul&gt;
+   <content type="html">&lt;ul&gt;
   &lt;li&gt;원문
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://github.com/google/snappy/blob/main/README.md&quot;&gt;Snappy 공식 Repo README&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;아직 Docs 시리즈는 형식이나 구성이 완전하진 않습니다. 글의 시인성이 좀 떨어지는 것 같아 구성을 바꿀수도 있을 것 같습니다.&lt;br /&gt;
-피드백이나 의견 있으시면 언제든지 &lt;a href=&quot;/about&quot;&gt;연락&lt;/a&gt;주세요.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -297,21 +282,10 @@ LZ77에서는 가까운 이전 데이터를 봤기 때문에 이전 데이터를
  
  <entry>
    <title>Training Language Models to Self-Correct via Reinforcement Learning</title>
-   <link href="https://jaybe-park.github.io/contents/2409.12917/"/>
+   <link href="https://jaybe-park.github.io/contents/llm-self-correction-rl/"/>
    <updated>2024-10-23T00:00:00+00:00</updated>
-   <id>https://jaybe-park.github.io/contents/2409.12917</id>
-   <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Daily Paper&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;하루에 한 논문을 30분 안에 간단하게 살펴본 결과를 기록하는 포스트입니다.&lt;/p&gt;
-
-&lt;p&gt;논문을 살펴볼 때 ChatGPT의 도움을 적극적으로 받으며, 따라서 포스트에 잘못된 내용이나 오류가 있을 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;피드백이나 의견 있으시면 언제든지 &lt;a href=&quot;/about&quot;&gt;연락&lt;/a&gt;주세요.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h1 id=&quot;3줄-요약&quot;&gt;3줄 요약&lt;/h1&gt;
+   <id>https://jaybe-park.github.io/contents/llm-self-correction-rl</id>
+   <content type="html">&lt;h1 id=&quot;3줄-요약&quot;&gt;3줄 요약&lt;/h1&gt;
 &lt;ul&gt;
   &lt;li&gt;LLM은 다양한 문제를 훌륭하게 해결하지만, 자신의 답변에서 오류를 스스로 인식하고 수정하는 능력은 상대적으로 약함&lt;/li&gt;
   &lt;li&gt;학습 과정을 2단계(답변 생성 -&amp;gt; 답변 수정)으로 나누어서 학습하게 하여 자기수정(self-correct) 능력을 크게 향상&lt;/li&gt;
@@ -482,21 +456,10 @@ LZ77에서는 가까운 이전 데이터를 봤기 때문에 이전 데이터를
  
  <entry>
    <title>Differential Transformer</title>
-   <link href="https://jaybe-park.github.io/contents/2410.05258/"/>
+   <link href="https://jaybe-park.github.io/contents/differential-transformer/"/>
    <updated>2024-10-22T00:00:00+00:00</updated>
-   <id>https://jaybe-park.github.io/contents/2410.05258</id>
-   <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Daily Paper&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;하루에 한 논문을 30분 안에 간단하게 살펴본 결과를 기록하는 포스트입니다.&lt;/p&gt;
-
-&lt;p&gt;논문을 살펴볼 때 ChatGPT의 도움을 적극적으로 받으며, 따라서 포스트에 잘못된 내용이나 오류가 있을 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;피드백이나 의견 있으시면 언제든지 &lt;a href=&quot;/about&quot;&gt;연락&lt;/a&gt;주세요.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h1 id=&quot;3줄-요약&quot;&gt;3줄 요약&lt;/h1&gt;
+   <id>https://jaybe-park.github.io/contents/differential-transformer</id>
+   <content type="html">&lt;h1 id=&quot;3줄-요약&quot;&gt;3줄 요약&lt;/h1&gt;
 &lt;ul&gt;
   &lt;li&gt;두 Softmax Attention 맵을 계산한 후, 이를 서로 차감하여 최종 Attention Score를 계산하는 Diffrential Attention Mechanism을 제시&lt;/li&gt;
   &lt;li&gt;노이즈 제거, 긴 문맥 처리 능력 강화, 헐루시네이션 완화, In-context 학습 성능 향상, 모델 크기 효율성 등의 여러 면에서 기존 트랜스포머 모델에 비해 뛰어난 성능을 보임&lt;/li&gt;
@@ -754,21 +717,10 @@ LZ77에서는 가까운 이전 데이터를 봤기 때문에 이전 데이터를
  
  <entry>
    <title>Movie Gen: A Cast of Media Foundation Models</title>
-   <link href="https://jaybe-park.github.io/contents/2410.13720/"/>
+   <link href="https://jaybe-park.github.io/contents/movie-gen/"/>
    <updated>2024-10-21T00:00:00+00:00</updated>
-   <id>https://jaybe-park.github.io/contents/2410.13720</id>
-   <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Daily Paper&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;하루에 한 논문을 30분 안에 간단하게 살펴본 결과를 기록하는 포스트입니다.&lt;/p&gt;
-
-&lt;p&gt;논문을 살펴볼 때 ChatGPT의 도움을 적극적으로 받으며, 따라서 포스트에 잘못된 내용이나 오류가 있을 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;피드백이나 의견 있으시면 언제든지 &lt;a href=&quot;/about&quot;&gt;연락&lt;/a&gt;주세요.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h1 id=&quot;3줄-요약&quot;&gt;3줄 요약&lt;/h1&gt;
+   <id>https://jaybe-park.github.io/contents/movie-gen</id>
+   <content type="html">&lt;h1 id=&quot;3줄-요약&quot;&gt;3줄 요약&lt;/h1&gt;
 &lt;ul&gt;
   &lt;li&gt;Meta에서 Movie Gen이라는 모델을 공개&lt;/li&gt;
   &lt;li&gt;사용자의 이미지를 기반으로 개인 맞춤형 비디오 생성, 텍스트 지시를 통한 비디오 수정, 비디오에 맞는 오디오 생성 등의 기능을 가지고 있음&lt;/li&gt;
@@ -823,21 +775,10 @@ LZ77에서는 가까운 이전 데이터를 봤기 때문에 이전 데이터를
  
  <entry>
    <title>YOUR MIXTURE-OF-EXPERTS LLM IS SECRETLY AN EMBEDDING MODEL FOR FREE</title>
-   <link href="https://jaybe-park.github.io/contents/2410.10814/"/>
+   <link href="https://jaybe-park.github.io/contents/moe-embedding/"/>
    <updated>2024-10-18T00:00:00+00:00</updated>
-   <id>https://jaybe-park.github.io/contents/2410.10814</id>
-   <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Daily Paper&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;하루에 한 논문을 30분 안에 간단하게 살펴본 결과를 기록하는 포스트입니다.&lt;/p&gt;
-
-&lt;p&gt;논문을 살펴볼 때 ChatGPT의 도움을 적극적으로 받으며, 따라서 포스트에 잘못된 내용이나 오류가 있을 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;피드백이나 의견 있으시면 언제든지 &lt;a href=&quot;/about&quot;&gt;연락&lt;/a&gt;주세요.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h1 id=&quot;3줄-요약&quot;&gt;3줄 요약&lt;/h1&gt;
+   <id>https://jaybe-park.github.io/contents/moe-embedding</id>
+   <content type="html">&lt;h1 id=&quot;3줄-요약&quot;&gt;3줄 요약&lt;/h1&gt;
 &lt;ul&gt;
   &lt;li&gt;LLM의 한계(인코딩 과정에 부적합)에 대한 연구가 활발히 일어나고 있음&lt;/li&gt;
   &lt;li&gt;Mixture-of-Experts (MoE) 모델의 &lt;strong&gt;라우팅 가중치(Routing Weights, RW)&lt;/strong&gt;가 대형 언어 모델(LLM)에서 임베딩 작업에 활용될 수 있음을 제안&lt;/li&gt;
@@ -1042,21 +983,10 @@ LZ77에서는 가까운 이전 데이터를 봤기 때문에 이전 데이터를
  
  <entry>
    <title>LOKI: A Comprehensive Synthetic Data Detection Benchmark using Large Multimodal Models</title>
-   <link href="https://jaybe-park.github.io/contents/2410.09732/"/>
+   <link href="https://jaybe-park.github.io/contents/loki-benchmark/"/>
    <updated>2024-10-17T00:00:00+00:00</updated>
-   <id>https://jaybe-park.github.io/contents/2410.09732</id>
-   <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Daily Paper&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;하루에 한 논문을 30분 안에 간단하게 살펴본 결과를 기록하는 포스트입니다.&lt;/p&gt;
-
-&lt;p&gt;논문을 살펴볼 때 ChatGPT의 도움을 적극적으로 받으며, 따라서 포스트에 잘못된 내용이나 오류가 있을 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;피드백이나 의견 있으시면 언제든지 &lt;a href=&quot;/about&quot;&gt;연락&lt;/a&gt;주세요.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h1 id=&quot;3줄-요약&quot;&gt;3줄 요약&lt;/h1&gt;
+   <id>https://jaybe-park.github.io/contents/loki-benchmark</id>
+   <content type="html">&lt;h1 id=&quot;3줄-요약&quot;&gt;3줄 요약&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Gen AI를 통해 합성/생성된 데이터를 판단하는 것에 LLM을 사용하면 설명을 제공할 수 있어 설명 가능성 (explainability) 측면에서 장점이 있다&lt;/li&gt;
@@ -1203,21 +1133,10 @@ LZ77에서는 가까운 이전 데이터를 봤기 때문에 이전 데이터를
  
  <entry>
    <title>LLM×MapReduce: Simplified Long-Sequence Processing using Large Language Models</title>
-   <link href="https://jaybe-park.github.io/contents/2410.09342/"/>
+   <link href="https://jaybe-park.github.io/contents/llm-mapreduce/"/>
    <updated>2024-10-17T00:00:00+00:00</updated>
-   <id>https://jaybe-park.github.io/contents/2410.09342</id>
-   <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Daily Paper&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;하루에 한 논문을 30분 안에 간단하게 살펴본 결과를 기록하는 포스트입니다.&lt;/p&gt;
-
-&lt;p&gt;논문을 살펴볼 때 ChatGPT의 도움을 적극적으로 받으며, 따라서 포스트에 잘못된 내용이나 오류가 있을 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;피드백이나 의견 있으시면 언제든지 &lt;a href=&quot;/about&quot;&gt;연락&lt;/a&gt;주세요.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h1 id=&quot;3줄-요약&quot;&gt;3줄 요약&lt;/h1&gt;
+   <id>https://jaybe-park.github.io/contents/llm-mapreduce</id>
+   <content type="html">&lt;h1 id=&quot;3줄-요약&quot;&gt;3줄 요약&lt;/h1&gt;
 &lt;ul&gt;
   &lt;li&gt;LLM의 제한된 문맥길이를 극복하기 위해 긴 문서를 작은 조각(chunk)로 나누어 개별적으로 처리하는 방법을 제안&lt;/li&gt;
   &lt;li&gt;조각 간 의존성, 조각 간 충돌 문제를 해결하기 위해 조각 간 의미를 전달하고 평가할 수 있는 방법을 제시&lt;/li&gt;
@@ -1402,13 +1321,11 @@ LZ77에서는 가까운 이전 데이터를 봤기 때문에 이전 데이터를
  </entry>
  
  <entry>
-   <title>2. Apache Avro</title>
+   <title>Apache Avro</title>
    <link href="https://jaybe-park.github.io/contents/docs-Apache_avro/"/>
    <updated>2023-05-07T00:00:00+00:00</updated>
    <id>https://jaybe-park.github.io/contents/docs-Apache_avro</id>
-   <content type="html">&lt;p&gt;Docs 시리즈는 공식 Docs를 통해 기술을 올바르게 이해하는 시리즈 입니다.&lt;/p&gt;
-
-&lt;ul&gt;
+   <content type="html">&lt;ul&gt;
   &lt;li&gt;원문
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://avro.apache.org/docs/&quot;&gt;Apache Avro 공식 Docs&lt;/a&gt;&lt;/li&gt;
@@ -1416,9 +1333,6 @@ LZ77에서는 가까운 이전 데이터를 봤기 때문에 이전 데이터를
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;아직 Docs 시리즈는 형식이나 구성이 완전하진 않습니다. 글의 시인성이 좀 떨어지는 것 같아 구성을 바꿀수도 있을 것 같습니다.&lt;br /&gt;
-피드백이나 의견 있으시면 언제든지 &lt;a href=&quot;/about&quot;&gt;연락&lt;/a&gt;주세요.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -1770,25 +1684,18 @@ LZ77에서는 가까운 이전 데이터를 봤기 때문에 이전 데이터를
  </entry>
  
  <entry>
-   <title>1. Apache Parquet</title>
+   <title>Apache Parquet</title>
    <link href="https://jaybe-park.github.io/contents/docs-Apache_parquet/"/>
    <updated>2023-01-15T00:00:00+00:00</updated>
    <id>https://jaybe-park.github.io/contents/docs-Apache_parquet</id>
-   <content type="html">&lt;p&gt;Docs 시리즈는 공식 Docs를 통해 기술을 올바르게 이해하는 시리즈 입니다.&lt;/p&gt;
-
-&lt;ul&gt;
+   <content type="html">&lt;ul&gt;
   &lt;li&gt;원문
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://parquet.apache.org/docs/&quot;&gt;Apache Parquet 공식 Docs&lt;/a&gt; - Parquet에 대한 전반적인 내용 및 안내&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://github.com/apache/parquet-format#readme&quot;&gt;parquet-foramt의 README.md&lt;/a&gt; - Parquet 파일의 포멧에 대한 프로젝트&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;위 두 링크를 제가 임의로 내용을 합쳐서 번역하였으며, 이해에 도움이 될 방향으로 정리하였습니다.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;이번 글은 Docs 시리즈의 첫 시작이라 형식이나 구성이 완전하진 않습니다. 글의 시인성이 좀 떨어지는 것 같아 구성을 바꿀수도 있을 것 같습니다.&lt;/p&gt;
-
-&lt;p&gt;피드백이나 의견 있으시면 언제든지 &lt;a href=&quot;/about&quot;&gt;연락&lt;/a&gt;주세요.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -2010,63 +1917,6 @@ required group field_id=-1 schema {
 &lt;p&gt;MySQL과 같은 RDB들은 성능 향상을 위해 들어오는 데이터를 타이트하게 관리하며, PK, 인덱스 등을 통해 통계자료도 저장하고 있습니다. 하지만, 데이터레이크와 같은 파일 기반 데이터저장소는 위와 같이 관리하는 것은 비효율적일 뿐만 아니라 취지에도 맞지 않습니다.&lt;/p&gt;
 
 &lt;p&gt;이런 상황에서 파케이는 내부에 메타데이터와 통계데이터를 가지고 있음으로써 위와 같은 단점을 효과적으로 상쇄시킬 수 있는 좋은 선택입니다. 이게 파케이가 데이터레이크 저장 형식의 대세가 된 이유지 않을까 싶네요.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Intro - Keep it under your pillow</title>
-   <link href="https://jaybe-park.github.io/contents/docs-intro/"/>
-   <updated>2023-01-14T00:00:00+00:00</updated>
-   <id>https://jaybe-park.github.io/contents/docs-intro</id>
-   <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;개발자는 항상 공부해야 하는 운명에 처해 있다.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;위 문장은 명제(Proposition, 命題)가 아니라 공리(Axiom, 公理)이다.&lt;/p&gt;
-
-&lt;p&gt;그렇다면 가장 효율적으로 학습하는 방법은 무엇일까?&lt;br /&gt;
-이 말을 듣자마자 아래 명언이 떠오르는 사람들이 많을 거라 생각한다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;공부에는 왕도(王道)가 없다&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;그리스의 수학자인 유클리드가 당시 이집트의 왕이었던 프톨레마이오스에게 남긴 말이라고 전해지며, “공부에는 쉽고 편한 길은 없으며, 아무리 귀중한 왕조차 예외일 수 없다”는 뜻이다.&lt;/p&gt;
-
-&lt;p&gt;위 두 말을 조합해보면, &lt;u&gt;개발자들은 평생 공부해야 하는데, 편하게 공부하는 방법마저 없다(!)&lt;/u&gt; 라는 결론이 나온다.&lt;/p&gt;
-
-&lt;p&gt;그렇다면 어떻게 해야 할까?&lt;/p&gt;
-
-&lt;p&gt;사실, 공부하는 방법은 모두가 다 알고 있다.&lt;/p&gt;
-
-&lt;p&gt;어떤 기술에 대해서 가장 잘 알고 있는 사람은 누구일까? &lt;u&gt;그 기술을 만든 사람들&lt;/u&gt;&lt;br /&gt;
-그 사람들이 기술에 대해서 설명해 놓은 문서는 무엇일까? &lt;u&gt;공식문서&lt;/u&gt;&lt;/p&gt;
-
-&lt;p&gt;나는 제대로 공부하려면 공식문서를 공부하는게 가장 바른 길이라고 생각한다.&lt;br /&gt;
-위 문장을 빌어서 표현한다면&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;공부에 왕도(王道)는 없지만, 정도(正道)는 있다&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;정도가 될 것 같다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Keep it under your pillow&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;위 문장을 내가 처음 본 곳은 Python의 &lt;a href=&quot;https://docs.python.org/&quot;&gt;공식 Docs&lt;/a&gt; 였다. (여기에서는 it이 아니라 this긴 하지만)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/2023-01-15-python-keepitunderyourpillow.png&quot; alt=&quot;python-keepitunderyourpillow&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;한글로 번역한다면 베게 밑에 놓고 생각날 때마다 꺼내봐라 정도로 번역하면 되지 않을까?&lt;/p&gt;
-
-&lt;p&gt;따라서 나는 베게 밑에 놓을 내용을 만들기 위해서 공식문서를 번역하는 프로젝트를 시작하려고 한다.&lt;br /&gt;
-물론, 번역만 하진 않을 것이며 내 생각을 더해 내용을 완성하는 방식이 될 것 같다.&lt;/p&gt;
-
-&lt;p&gt;이 내용들이 쌓여 나중에 큰 도움이 되길 바라며&lt;/p&gt;
 </content>
  </entry>
  
