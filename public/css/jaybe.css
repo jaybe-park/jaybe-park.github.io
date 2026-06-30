@@ -50,14 +50,29 @@ ul, ol, dl, li {
   display: inline;
 }
 
+.post-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  font-size: 0.78rem;
+  font-weight: 300;
+  color: #9a9a9a;
+  margin-bottom: 1.5rem;
+}
+
+.post-meta-sep {
+  color: #ccc;
+}
+
 .post-tag {
   display: inline-block;
   background: rgba(172, 65, 66, 0.15);
-  padding: 0.1rem 0.5rem;
+  padding: 0.05rem 0.45rem;
   border-radius: 4px;
   color: #ac4142;
-  font-size: 90%;
-  margin: 0.2em;
+  font-size: 0.72rem;
+  font-weight: 300;
 }
 
 .post-tag::before {
@@ -115,11 +130,10 @@ pre {
 }
 .copy-btn {
   position: absolute;
-  top: 0.4rem;
-  right: 0.4rem;
-  padding: 0.15rem 0.5rem;
-  font-size: 0.72rem;
-  font-family: "Noto Sans KR", sans-serif;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 0.3rem;
+  line-height: 0;
   background: rgba(255, 255, 255, 0.1);
   color: #bbb;
   border: 1px solid rgba(255, 255, 255, 0.2);
