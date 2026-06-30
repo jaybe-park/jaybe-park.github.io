@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 1. Apache Parquet
-category: docs
+category: engineering
 tag: [Docs, Apache Parquet, 아파치 파케이]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 삶의 지도
-category: essay
+category: notes
 tag: essay
 ---
 

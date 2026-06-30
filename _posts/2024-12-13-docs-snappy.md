@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 3. Snappy
-category: docs
+category: engineering
 tag: [Docs, Snappy, 스내피]
 ---
 
